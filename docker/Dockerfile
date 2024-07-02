@@ -1,4 +1,4 @@
-FROM python:slim
+FROM python:3.12.4-slim-bookworm
 RUN sed -i 's/deb.debian.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apt/sources.list \
     && sed -i 's/security.debian.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apt/sources.list
 RUN pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pip -U \
