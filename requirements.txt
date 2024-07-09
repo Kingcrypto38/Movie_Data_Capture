@@ -12,3 +12,4 @@ urllib3==1.26.18
 certifi
 MechanicalSoup
 opencc-python-reimplemented
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
